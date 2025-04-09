@@ -1,6 +1,6 @@
 class Pilhas {
   constructor(tam = 10) {
-    this.v = new Array[tam]();
+    this.v = new Array(tam);
     this.topoA = -1;
     this.topoB = tam;
     this.tam = tam;
@@ -56,3 +56,5 @@ class Pilhas {
     }
   }
 }
+
+export default Pilhas;
